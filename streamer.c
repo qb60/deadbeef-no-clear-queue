@@ -2463,7 +2463,7 @@ play_index (int idx, int startpaused) {
     playItem_t *it = NULL;
     playlist_t *plt = NULL;
 
-    playqueue_clear ();
+    // playqueue_clear ();
 
     if (idx < 0) {
         goto error;

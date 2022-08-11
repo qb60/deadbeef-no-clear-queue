@@ -856,7 +856,7 @@ player_mainloop (void) {
                     streamer_play_current_track ();
                     break;
                 case DB_EV_PLAY_NUM:
-                    playqueue_clear ();
+                    // playqueue_clear ();
                     streamer_set_nextsong (p1, 0);
                     break;
                 case DB_EV_STOP:
